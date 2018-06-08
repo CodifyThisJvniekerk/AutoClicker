@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="AutoPilot" Height="350" Width="525">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*">
+            </ColumnDefinition>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Y position of cursor :" Grid.Row="0" Grid.Column="0" Height="10"></TextBlock>
+        <TextBox Text="0" Grid.Row="0" Grid.Column="1" Height="10"></TextBox>
     </Grid>
 </Window>
